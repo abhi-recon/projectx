@@ -76,3 +76,4 @@ jobs:
           trivy config --severity CRITICAL,HIGH \
             --format table \
             --exit-code 1 \
+            .
